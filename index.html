@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/icon-camera.png" type="image/x-icon">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">
+                <div class="logo">
+                    Free 
+                    <span>Photos<img src="/images/icon-camera.png" alt=""></span>
+                </div>
+              </a>  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  <a class="nav-link" href="/pages/gallery.html">Gallery</a>
+                  <a class="nav-link" href="/pages/login.html">Login</a>
+                  <a class="nav-link" href="/pages/aboutUs.html">About us</a>
+                  <a href="/pages/upload.html"><button>Upload photos</button></a>
+                </div>
+               </div>
+            </div>
+        </nav>
+
+    </header>    
+    
+    <main>
+        <div class="call">
+            <h1>Best way to organize your photos</h1>
+            <ul>
+                <li>Agroup photos by date</li>
+                <li>Add tags to your photos</li>
+                <li>Edit your photos online</li>
+                <li>Simple uploads and downloads</li>
+            </ul>
+            <a href=""><button>Get started</button></a>
+        </div>
+    </main>
+    
+    <section class="section1">
+        
+         <div class="boxIntro"> 
+            
+            <div class="boxLeft">
+                 
+            </div>
+                
+            <div class="boxRight">
+                <h2>Enjoy Free Photos, more than 20gb capacity per user.</h2>
+                <div class="intro-text">You can organize your photos by album and tags. You will enjoy unlimited capicity to download free photos.</div>
+                
+                <hr>
+
+                <div class="intro-text">Share it with your friends and increase your storage capacity</div>
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fas fa-share-square"></i>
+                    </button>
+                
+                <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Select an option</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <i class="fab fa-whatsapp-square"></i> <i class="fab fa-telegram"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i> 
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div> 
+            </div>               
+    </section>
+          
+
+
+        <section class="sectionMain">
+            <div class="box1">
+                <a href="">
+                    <img src="images/nature.jpg" alt="">
+                    <h2>Print photos <i class="fas fa-print"></i></h2>
+                    <div class="intro-text"> High resolution images are pictures or photos where the media has higher concentrations of pixels or dots, resulting in better quality and clarity of the image – as it contains more detail. By contrast, images with lower resolutions tend to have fewer pixels or dots and thus less detail. </div>
+                </a>
+            </div>
+            
+            <div class="box1">
+                <a href="">
+                    <img src="images/16.jpg" alt="">
+                    <h2>Pictures with stories <i class="far fa-newspaper"></i></h2>
+                    <div class="intro-text">You will find extense galleries with special moment with beatiful memories quotes of the autor. </div>
+                </a>    
+            </div>
+            
+            <div class="box1">
+                <a href="/pages/galleryBytags.html">
+                    <img src="images/river.jpg" alt="">
+                    <h2>All photos  by category <i class="fas fa-tag"></i></h2>
+                    <div class="intro-text">You will be able to find specifics photos related to specifics events, such as Sports, Parties, Jobs, Hobbies...   </div>
+                </a>
+            </div>
+
+            <div class="box1">
+                <a href="">
+                    <img src="images/15.jpg" alt="">
+                    <h2>Random pictures <i class="fas fa-random"></i></h2>
+                    <div class="intro-text">You will find extense galleries with photos around the world from all kind of categories together.</div>
+                </a>
+            </div>
+
+        </section>
+
+
+    <footer> 
+        <p>All copyright reserved</p>
+        <div class="socialMedia">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+     </footer>
+
+    <a href="#" class="up"><i class="fas fa-chevron-up"></i>
+    </a>
+
+</body>
+</html>

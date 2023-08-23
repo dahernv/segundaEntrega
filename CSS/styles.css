@@ -38,7 +38,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("images/header-image.jpeg");
+    background-image: url("/images/header-image.jpeg");
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
@@ -226,7 +226,7 @@ footer{
 .boxLeft{
     background-color: rgb(255, 255, 255);
     width: 50%;
-    background-image: url("images/3.jpg");
+    background-image: url("/images/3.jpg");
     background-position: center;
     background-size: cover;
     height: auto;

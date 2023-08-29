@@ -38,7 +38,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("/images/header-image.jpeg");
+    background-image: url("../images/header-image.jpeg");
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
@@ -226,7 +226,7 @@ footer{
 .boxLeft{
     background-color: rgb(255, 255, 255);
     width: 50%;
-    background-image: url("/images/3.jpg");
+    background-image: url("../images/3.jpg");
     background-position: center;
     background-size: cover;
     height: auto;
@@ -511,56 +511,56 @@ padding: 10px;
 }
 
 .item1{
-    background-image: url("/images/flor-1.jpg");
+    background-image: url("../images/flor-1.jpg");
     grid-area: img1;
 }
 
 .item2{
-    background-image: url("/images/flor-2.jpg");
+    background-image: url("../images/flor-2.jpg");
     grid-area: img2;
 
 }
 
 .item3{
-    background-image: url("/images/flor-3.jpg");
+    background-image: url("../images/flor-3.jpg");
     grid-area: img3;
 
 
 }
 
 .item4{
-    background-image: url("/images/flor-4.jpg");
+    background-image: url("../images/flor-4.jpg");
     grid-area: img4;
 
 
 }
 
 .item5{
-    background-image: url("/images/flor-5.jpg");
+    background-image: url("../images/flor-5.jpg");
     grid-area: img5;
 
 }
 
 .item6{
-    background-image: url("/images/flor-6.jpg");
+    background-image: url("../images/flor-6.jpg");
     grid-area: img6;
 
 }
 
 .item7{
-    background-image: url("/images/flor-7.jpg");
+    background-image: url("../images/flor-7.jpg");
     grid-area: img7;
 
 }
 
 .item8{
-    background-image: url("/images/flor-8.jpg");
+    background-image: url("../images/flor-8.jpg");
     grid-area: img8;
 
 }
 
 .item9{
-    background-image: url("/images/flor-9.jpg");
+    background-image: url("../images/flor-9.jpg");
     grid-area: img9;
 
 }

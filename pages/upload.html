@@ -35,150 +35,136 @@
                </div>
             </div>
           </nav>
-    </header>    
-    <section class="section3">
-
-                <h2>Upload your photos</h2>
-
-                <div class="intro-text">In this section you will find the option to upload your photos. Please click on the button below to begin to upload yous photos.</div> 
-                
-                
-                
-                <!-- modal form -->
-                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">First step</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h2>1- Upload your photos here</h2>
-                            <div class="input-group mb-3">
-                                <label class="input-group-text" for="inputGroupFile01">Upload</label>
-                                <input type="file" class="form-control" id="inputGroupFile01">
+  </header>    
+  <section class="section3">
+    <h2>Upload your photos</h2>
+    <div class="intro-text">In this section you will find the option to upload your photos. Please click on the button below to begin to upload yous photos.</div> 
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">First step</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <h2>1- Upload your photos here</h2>
+              <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                  <input type="file" class="form-control" id="inputGroupFile01">
+              </div>
+              <hr>
+              <h3></h3>                          
+              <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Name of the photo</label>
+                </div>
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Brief description</label>
+                </div>
+              </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>          
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Second step</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <h2>Is the picture high resolution? <i class="fas fa-print"></i></h2>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    No
+                  </label>
+                </div>
+                <hr>
+                <h2>Choose a main category</h2>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Select a category</option>
+                  <option value="1">Family</option>
+                  <option value="2">Travels</option>
+                  <option value="3">Sport</option>
+                  <option value="4">Job</option>
+                  <option value="5">Others</option>
+                </select>
+                <hr>
+                <h2>Select tags <i class="fas fa-tag"></i></h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Select the tags which match with the photo
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Black and White
+                              </label>
                             </div>
-                            <hr>
-                            <h3></h3>                          
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                <label for="floatingInput">Name of the photo</label>
-                              </div>
-                              <div class="form-floating">
-                                <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Brief description</label>
-                              </div>
-                            
-                            </div>
-                        <div class="modal-footer">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Second step</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h2>Is the picture high resolution? <i class="fas fa-print"></i></h2>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                  Yes
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                  No
-                                </label>
-                              </div>
-                              <hr>
-                              <h2>Choose a main category</h2>
-                              <select class="form-select" aria-label="Default select example">
-                                <option selected>Select a category</option>
-                                <option value="1">Family</option>
-                                <option value="2">Travels</option>
-                                <option value="3">Sport</option>
-                                <option value="4">Job</option>
-                                <option value="5">Others</option>
-                              </select>
-                              <hr>
-                              <h2>Select tags <i class="fas fa-tag"></i></h2>
-                              <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Select the tags which match with the photo
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                              Black and White
-                                            </label>
-                                          </div>
-                                           
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                              Nature
-                                            </label>
-                                          </div>
-                                           
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                              Landscape
-                                            </label>
-                                          </div>
-                                           
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                              Animals
-                                            </label>
-                                          </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              <h2>Add a short story about the pictures <i class="far fa-newspaper"></i></h2>
-                              <div class="mb-3">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                              </div>
-                              <hr>
-                              <h2>Allow to share my pictures with other users</h2>
-                              <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                                <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
-                              </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button class="btn btn-primary"  data-bs-dismiss="modal" aria-label="Close">Upload</button>
-                        </div>
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Nature
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Landscape
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Animals
+                              </label>
+                            </div>
                       </div>
                     </div>
                   </div>
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Upload your pictures</button>
-
-    </section>
-    <footer>
+                <h2>Add a short story about the pictures <i class="far fa-newspaper"></i></h2>
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                </div>
+                <hr>
+                <h2>Allow to share my pictures with other users</h2>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary"  data-bs-dismiss="modal" aria-label="Close">Upload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Upload your pictures</button>
+  </section>
+  <footer>
         <p>All copyright reserved</p>
         <div class="socialMedia">
             <i class="fab fa-facebook"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-instagram"></i>
         </div>
-
-    </footer>
-
-    
+  </footer>
 </body>
 </html>
